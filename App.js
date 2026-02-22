@@ -1,14 +1,13 @@
 import React from "react";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { StyleSheet, Image, Button} from "react-native";
-import Component from "./Component";
-
+import Component1 from  "./Component";
 const App = () => {
   return (
     <>
     <SafeAreaView style={Mystyles.safeArea}></SafeAreaView>
     <SafeAreaProvider>
-       < Component />
+       < Component1 />
     </SafeAreaProvider>
     </>
   );
