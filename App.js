@@ -96,10 +96,11 @@
 import react from "react";
 import Topbar_Navigation from "./Topbar_Navigation";
 import { SafeAreaProvider } from "react-native-safe-area-context";
+import DrawerNavigation from "./DraweNavigation";
 const App = () =>{
   return(
     <SafeAreaProvider>
-      <Topbar_Navigation />
+      <DrawerNavigation/>
     </SafeAreaProvider>
   )
 }
